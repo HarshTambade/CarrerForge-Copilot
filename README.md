@@ -1,130 +1,102 @@
-CareerForge Copilot
-
-Think of it as a “Career GPS + Proof-of-Skills Engine” that doesn’t just polish resumes, but also guides, validates, and tracks your career growth.
-
-🚀 Overview
-
-CareerForge Copilot is an AI-powered platform designed to help students and professionals navigate their career journey. Unlike traditional resume optimizers, it provides proof-based validation, personalized growth paths, and real-time job readiness scoring.
-
-This project was built as part of the Vartak Hackathon, focusing on bridging the gap between career aspirations and job-market demands.
-
-✨ Core Features
-1. Smart Resume Optimizer + Proof-Based Validation
-
-Upload resume → AI tailors it for any job description.
-
-ATS Score Predictor (% compatibility).
-
-Rewrites bullets into STAR format with measurable impact.
-
-Link every resume point to proofs (GitHub commits, Kaggle projects, certifications, demo videos).
-
-2. Skill Gap Analyzer + Role Delta Engine
-
-Paste a job link → AI compares required vs current skills.
-
-Spider chart visualization of your skills vs role needs.
-
-Ranks missing skills by impact and ease of learning.
-
-Generates a 30-day personalized upskilling plan.
-
-3. Personalized Growth Engine
-
-Micro-learning paths (15-min daily tasks).
-
-Micro-internship generator → mini-projects aligned with missing skills.
-
-Certification roadmap → ROI-based recommendations.
-
-4. Career Intelligence Dashboard
-
-Tracks all applications, success rates, ATS improvements.
-
-Recruiter Simulator → heatmap of what a recruiter notices in 6 seconds.
-
-Interview Prep AI → generates likely questions.
-
-Salary Negotiation Assistant → suggests salary ranges.
-
-5. Gamified Career DNA Profile
-
-Unique career fingerprint (hard + soft skills + aspirations).
-
-Career XP system with badges for milestones.
-
-Weekly career challenges based on job market trends.
-
-6. Peer Learning & Job Market Integration
-
-Anonymous mentorship → connect with peers who made similar moves.
-
-Live job feed tailored to your evolving skill profile.
-
-“Ready Score” → % readiness for each role in real time.
-
-🏆 Why CareerForge Stands Out
-
-Goes beyond resume polish → adds recruiter simulator, proof-based resumes, micro-internships, and readiness scoring.
-
-Shows real impact: ATS improvement, time saved, reduced skill gaps.
-
-Hackathon-friendly MVP with a balance of innovation + feasibility.
-
-🛠️ Tech Stack
-
-Frontend:
-
-Next.js / React
-
-Tailwind CSS (dashboards, spider charts)
-
-Backend:
-
-FastAPI / Django
-
-AI & ML:
-
-Resume parsing → spaCy / Hugging Face
-
-Job matching → Sentence Transformers (embeddings)
-
-Resume rewriting → LLM (fine-tuned LLaMA or OpenAI API)
-
-Recruiter Simulator → Attention heatmaps + GPT summaries
-
-Database:
-
-PostgreSQL
-
-FAISS (for skill/job embeddings)
-
-Integrations:
-
-LinkedIn (job scraping)
-
-GitHub / Google Drive (proofs)
-
-Coursera / Udemy (learning paths)
-
-🎯 Hackathon MVP Demo Flow (3–5 minutes)
-
-Upload Resume + Paste Job Link → Show ATS score + tailored resume.
-
-Role Delta Visualization → Spider chart with missing skills.
-
-One-Click Growth Plan → Micro-learning roadmap.
-
-Recruiter Simulator → Heatmap of recruiter’s 6s view.
-
-Export Resume + Career DNA Profile → Download as PDF + share proof-based link.
-
-📌 Future Roadmap
-
-Expand integrations (Indeed, Naukri, GitLab).
-
-Add voice-based interview practice.
-
-AI-powered peer mentorship suggestions.
-
-Advanced gamification with global leaderboards.
+# 🚀 CareerForge Copilot  
+
+> **CareerForge Copilot = Career GPS + Proof-of-Skills Engine**  
+Guides, validates, and tracks your career growth beyond just resume optimization.  
+
+---
+
+## ✨ Features  
+
+### 📝 Smart Resume Optimizer + Proof Validation  
+- Upload resume → AI tailors it to any job description  
+- ATS Score Predictor (% compatibility)  
+- STAR-format bullet rewriting with measurable impact  
+- Link resume bullets to **proofs** (GitHub commits, Kaggle projects, certifications, demo videos)  
+
+### 📊 Skill Gap Analyzer + Role Delta Engine  
+- Paste job link → AI compares required vs current skills  
+- Spider chart visualization (your skills vs role skills)  
+- Rank missing skills by **impact & ease of learning**  
+- Generate a **30-day personalized upskilling plan**  
+
+### 🎯 Personalized Growth Engine  
+- Micro-learning paths → daily 15-min tasks  
+- Micro-internship generator (mini-projects aligned with missing skills)  
+- ROI-based certification roadmap  
+
+### 📌 Career Intelligence Dashboard  
+- Track applications, ATS improvements, & success rates  
+- **Recruiter Simulator**: Heatmap of recruiter’s 6s skim  
+- AI-generated interview prep questions  
+- Salary Negotiation Assistant with market data  
+
+### 🧬 Gamified Career DNA Profile  
+- Build a **career fingerprint** (hard + soft skills + aspirations)  
+- Career XP system → badges for milestones  
+- Weekly career challenges based on market trends  
+
+### 🤝 Peer Learning & Job Market Integration  
+- Anonymous mentorship (match with peers who made similar moves)  
+- Live job feed tailored to evolving skill profile  
+- “Ready Score” → % readiness for each role in real time  
+
+---
+
+## 🏆 Why CareerForge?  
+✅ Goes beyond resume polishing → adds recruiter simulator, proof-based resumes, micro-internships, and readiness scoring  
+✅ Shows **real impact** → ATS % improvement, time saved, reduced skill gaps  
+✅ Hackathon MVP-ready with **innovation + feasibility balance**  
+
+---
+
+## 🛠️ Tech Stack  
+
+**Frontend**  
+- Next.js / React  
+- Tailwind CSS  
+
+**Backend**  
+- FastAPI / Django  
+
+**AI/ML**  
+- Resume Parsing → spaCy, HuggingFace Transformers  
+- Job Matching → Sentence Transformers  
+- Resume Rewriting → LLM (OpenAI API / LLaMA)  
+- Recruiter Simulator → Attention Heatmaps + GPT Summaries  
+
+**Database**  
+- PostgreSQL  
+- FAISS (for embeddings)  
+
+**Integrations**  
+- LinkedIn (job scraping)  
+- GitHub / Google Drive (proofs)  
+- Coursera / Udemy (learning paths)  
+
+---
+
+## ⚡ Hackathon MVP Demo Flow (3–5 mins)  
+1. Upload Resume + Paste Job Link → ATS Score + Tailored Resume  
+2. Role Delta Visualization → Spider Chart of Missing Skills  
+3. One-Click Growth Plan → Personalized Roadmap  
+4. Recruiter Simulator → Heatmap of Recruiter’s First Impressions  
+5. Export Resume + Career DNA Profile (PDF + Proof-based Link)  
+
+---
+
+## 📦 Installation  
+
+```bash
+# Clone the repository
+git clone https://github.com/your-org/careerforge-copilot.git
+cd careerforge-copilot
+
+# Frontend setup
+cd frontend
+npm install
+npm run dev
+
+# Backend setup
+cd ../backend
+pip install -r requirements.txt
+uvicorn main:app --reload
